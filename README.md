@@ -1,5 +1,6 @@
 <form action="/my-handling-form-page" method="post">
-  <styleform {
+  <style>
+    form {
   /* Just to center the form on the page */
   margin: 0 auto;
   width: 400px;
@@ -55,7 +56,7 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
-}>
+}
 </style>
   <div>
     <label for="name">Name:</label>
