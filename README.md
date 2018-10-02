@@ -16,7 +16,7 @@ form div + div {
 label {
   /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
-  width: 150px;
+  width: 300px;
   text-align: right;
 }
 
