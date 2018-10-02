@@ -314,7 +314,7 @@ button {
         <br>
     <div>
     <label for="total_rap">Total Rap 8cts:</label>
-    <input type="text" id="total_rap" name="total_rap">
+    <input type="text" id="total_rap" name="total_rap" onchange="calculate()">
   </div>
     <br>
   <div class="button">
