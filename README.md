@@ -23,7 +23,6 @@ label {
 label1 {
   /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
-  width: 500px;
   text-align: right;
 }
 
