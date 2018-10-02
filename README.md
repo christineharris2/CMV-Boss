@@ -20,13 +20,20 @@ label {
   text-align: right;
 }
 
+label1 {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 700px;
+  text-align: right;
+}
+
 input, textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em sans-serif;
 
   /* To give the same size to all text fields */
-  width: 150px;
+  width: 400px;
   box-sizing: border-box;
 
   /* To harmonize the look & feel of text field border */
@@ -78,7 +85,7 @@ button {
       <header></header>
 <form>
 <li class="form-line" data-type="control_matrix" id="id_19">
-          <label class="form-label form-label-left form-label-auto" id="label_19" for="input_19"> What rap vocalz do you need for this team? ($14/8ct) </label>
+          <label1 class="form-label form-label-left form-label-auto" id="label_19" for="input_19"> What rap vocalz do you need for this team? ($14/8ct) </label1>
           <div id="cid_19" class="form-input">
             <table summary="" cellpadding="4" cellspacing="0" class="form-matrix-table" data-component="matrix">
               <tbody>
