@@ -223,7 +223,7 @@ button {
                   </td>
                 </tr>
                 <tr>
-                  <th style="text-align:left" class="form-matrix-row-headers"><br>
+                  <th style="text-align:left" class="form-matrix-row-headers">
                     Elokk
                     
                   </th>
