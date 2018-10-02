@@ -1,3 +1,5 @@
+<html>
+<iframe src="javascript:false" title="" style="width: 0px; height: 0px; border: 0px; display: none;"></iframe>	
 <style>
     function dm(amount) 
 {
