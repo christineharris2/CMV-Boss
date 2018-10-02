@@ -16,7 +16,7 @@ form div + div {
 label {
   /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
-  width: 300px;
+  width: 700px;
   text-align: right;
 }
 
@@ -26,7 +26,7 @@ input, textarea {
   font: 1em sans-serif;
 
   /* To give the same size to all text fields */
-  width: 300px;
+  width: 150px;
   box-sizing: border-box;
 
   /* To harmonize the look & feel of text field border */
