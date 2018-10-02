@@ -108,16 +108,16 @@ button {
                     CrimsonMuzik
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" name="1_8ctA" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="1_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="2_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="3_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="4_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
