@@ -261,7 +261,8 @@ button {
             </table>
           </div>
         </li>
+        <br></br>
   <div class="button">
-  <button type="submit">Send your message</button>
+  <button type="submit">Submit Your Order</button>
 </div>
 </form>
