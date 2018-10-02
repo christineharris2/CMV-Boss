@@ -261,6 +261,11 @@ button {
           </div>
         </li>
         <br>
+    <div>
+    <label for="total_rap">Total Rap 8cts:</label>
+    <input type="text" id="total_rap" name="total_rap">
+  </div>
+    <br>
   <div class="button">
   <button type="submit">Submit Your Order</button>
 </div>
