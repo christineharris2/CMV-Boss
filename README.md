@@ -1,6 +1,52 @@
 <html>
-<style>
+<calc>
+        function dm(amount) 
+{
+string = "" + amount;
+dec = string.length - string.indexOf('.');
+if (string.indexOf('.') == -1)
+return string + '.00';
+if (dec == 1)
+return string + '00';
+if (dec == 2)
+return string + '0';
+if (dec > 3)
+return string.substring(0,string.length-dec+3);
+return string;
+}
+    function calculate()
+{
 
+  1_8ctA = 0; 2_8ctA = 0; 3_8ctA = 0; 4_8ctA=0;
+  Total_Rap = 0
+
+   PrcA = 14
+
+
+
+   if (document.retail.1_8cta.value > "")
+      { 1_8ctA = document.retail.1_8cta.value };
+   document.retail.1_8cta.value = eval(1_8ctA); 
+
+   if (document.retail.2_8cta.value > "")
+      { 2_8ctA = document.retail.2_8cta.value };
+   document.retail.2_8cta.value = eval(2_8ctA); 
+
+   if (document.retail.3_8cta.value > "")
+      { 3_8ctA = document.retail.3_8cta.value };
+   document.retail.3_8cta.value = eval(3_8ctA);
+
+   if (document.retail.4_8cta.value > "")
+      { 4_8ctA = document.retail.4_8cta.value };
+   document.retail.4_8cta.value = eval(4_8ctA);
+
+Total_Rap=(1_8ctA+ (2_8ctA * 2) + (3_8ctA * 3) + (4_8ctA * 4))* PrcA;
+
+document.retail.totalA.value=dm(eval(Total_Rap));
+
+}
+</calc>
+<style>
     form {
   /* Just to center the form on the page */
   margin: 0 auto;
