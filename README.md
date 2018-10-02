@@ -1,4 +1,18 @@
 <style>
+    function dm(amount) 
+{
+string = "" + amount;
+dec = string.length - string.indexOf('.');
+if (string.indexOf('.') == -1)
+return string + '.00';
+if (dec == 1)
+return string + '00';
+if (dec == 2)
+return string + '0';
+if (dec > 3)
+return string.substring(0,string.length-dec+3);
+return string;
+}
     form {
   /* Just to center the form on the page */
   margin: 0 auto;
@@ -63,7 +77,7 @@ button {
   margin-left: .5em;
 }
 </style>
-<form action="/my-handling-form-page" method="post">  
+<form action="submitted.html" method="post" name="retail">  
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" name="user_name">
