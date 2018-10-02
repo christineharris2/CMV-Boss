@@ -2,7 +2,7 @@
     form {
   /* Just to center the form on the page */
   margin: 0 auto;
-  width: 700px;
+  width: 850px;
   /* To see the outline of the form */
   padding: 1em;
   border: 1px solid #CCC;
@@ -16,7 +16,7 @@ form div + div {
 label {
   /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
-  width: 90px;
+  width: 150px;
   text-align: right;
 }
 
@@ -66,9 +66,13 @@ button {
     <label for="mail">E-mail:</label>
     <input type="email" id="mail" name="user_mail">
   </div>
+    <div>
+    <label for="gym_name">Gym and Team Name:</label>
+    <input type="text" id="gym_name">
+  </div>
   <div>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
+    <label for="details">Team Details:</label>
+    <textarea id="details"></textarea>
   </div>
   <div>
       <header></header>
