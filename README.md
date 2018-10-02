@@ -111,7 +111,7 @@ button {
                     <input type="text" id="input_19_0_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value=""onchange="calculate()">
+                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
                     <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
