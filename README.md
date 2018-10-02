@@ -108,16 +108,16 @@ button {
                     CrimsonMuzik
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_0_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value=""onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -125,16 +125,16 @@ button {
                     Emrich
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_1_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_1_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_1_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_1_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_1_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_1_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_1_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_1_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[1][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -142,16 +142,16 @@ button {
                     Troy
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_2_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_2_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_2_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_2_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_2_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_2_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_2_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_2_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[2][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -159,16 +159,16 @@ button {
                     Cypher T
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_3_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_3_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_3_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_3_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_3_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_3_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_3_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_3_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[3][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -176,16 +176,16 @@ button {
                     Angel
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_4_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_4_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_4_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_4_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_4_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_4_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_4_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_4_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[4][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -193,16 +193,16 @@ button {
                     Caz Chill
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_5_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_5_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_5_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_5_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
                     <input type="text" id="input_19_5_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_5_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_5_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[5][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -210,34 +210,33 @@ button {
                     T-Ravill
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_6_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate">
+                    <input type="text" id="input_19_6_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_6_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_6_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_6_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_6_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_6_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_6_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[6][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
                   <th style="text-align:left" class="form-matrix-row-headers">
-                    Elokk
-                    
+                    Elokk          
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_7_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_7_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_7_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_7_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_7_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_7_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_7_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_7_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[7][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
@@ -245,16 +244,16 @@ button {
                     Sammy Sno
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_8_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_8_0" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_8_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_8_1" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_8_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_8_2" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_8_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="">
+                    <input type="text" id="input_19_8_3" class="form-textbox validate[Currency]" size="5" name="q19_whatRap[8][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
               </tbody>
