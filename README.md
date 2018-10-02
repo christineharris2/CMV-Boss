@@ -13,6 +13,41 @@ if (dec > 3)
 return string.substring(0,string.length-dec+3);
 return string;
 }
+    function calculate()
+{
+
+  1_8ctA = 0; 2_8ctA = 0; 3_8ctA = 0; 4_8ctA=0;
+   Tota­l_Rap = 0
+
+   PrcA = 14
+
+
+
+   if (document.retail.1_8cta.value > "")
+      { 1_8ctA = document.retail.1_8cta.value };
+   document.retail.1_8cta.value = eval(1_8ctA); 
+
+   if (document.retail.2_8cta.value > "")
+      { 2_8ctA = document.retail.2_8cta.value };
+   document.retail.2_8cta.value = eval(2_8ctA*2); 
+
+   if (document.retail.3_8cta.value > "")
+      { 3_8ctA = document.retail.3_8cta.value };
+   document.retail.3_8cta.value = eval(3_8ctA*3);
+
+   if (document.retail.4_8cta.value > "")
+      { 4_8ctA = document.retail.4_8cta.value };
+   document.retail.4_8cta.value = eval(4_8ctA*4);
+
+
+   Total_Rap = 
+	eval(1_8ctA)+
+	eval(2_8ctA)+
+	eval(3_8ctA)+
+	eval(4_8ctA)*
+	PrcA;
+   document.retail.total_rap.value = dm(eval(Total_Rap));
+}
     form {
   /* Just to center the form on the page */
   margin: 0 auto;
@@ -122,16 +157,16 @@ button {
                     CrimsonMuzik
                   </th>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="1_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="1_8cta" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="2_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_1" class="form-textbox validate[Currency]" size="5" name="2_8cta" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="3_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="3_8cta" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="4_8ct_A_whatRap[0][]" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="4_8cta  " style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
