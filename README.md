@@ -1,5 +1,4 @@
-<form action="/my-handling-form-page" method="post">
-  <style>
+<style>
     form {
   /* Just to center the form on the page */
   margin: 0 auto;
@@ -58,6 +57,7 @@ button {
   margin-left: .5em;
 }
 </style>
+<form action="/my-handling-form-page" method="post">  
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" name="user_name">
