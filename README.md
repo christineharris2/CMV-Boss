@@ -19,7 +19,7 @@ return string;
 {
 
   1_8ctA = 0; 2_8ctA = 0; 3_8ctA = 0; 4_8ctA=0;
-   Total_Rap = 0
+  Total_Rap = 0
 
    PrcA = 14
 
@@ -31,24 +31,20 @@ return string;
 
    if (document.retail.2_8cta.value > "")
       { 2_8ctA = document.retail.2_8cta.value };
-   document.retail.2_8cta.value = eval(2_8ctA*2); 
+   document.retail.2_8cta.value = eval(2_8ctA); 
 
    if (document.retail.3_8cta.value > "")
       { 3_8ctA = document.retail.3_8cta.value };
-   document.retail.3_8cta.value = eval(3_8ctA*3);
+   document.retail.3_8cta.value = eval(3_8ctA);
 
    if (document.retail.4_8cta.value > "")
       { 4_8ctA = document.retail.4_8cta.value };
-   document.retail.4_8cta.value = eval(4_8ctA*4);
+   document.retail.4_8cta.value = eval(4_8ctA);
 
+Total_Rap=(1_8ctA+ (2_8ctA * 2) + (3_8ctA * 3) + (4_8ctA * 4))* PrcA;
 
-   Total_Rap = 
-	eval(1_8ctA)+
-	eval(2_8ctA)+
-	eval(3_8ctA)+
-	eval(4_8ctA)*
-	PrcA;
-   document.retail.total_rap.value = dm(eval(Total_Rap));
+document.retail.totalA.value=dm(eval(Total_Rap));
+
 }
     form {
   /* Just to center the form on the page */
