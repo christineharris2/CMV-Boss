@@ -17,7 +17,7 @@ return string;
 {
 
   1_8ctA = 0; 2_8ctA = 0; 3_8ctA = 0; 4_8ctA=0;
-   Tota­l_Rap = 0
+   Total_Rap = 0
 
    PrcA = 14
 
@@ -166,7 +166,7 @@ button {
                     <input type="text" id="input_19_0_2" class="form-textbox validate[Currency]" size="5" name="3_8cta" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                   <td style="text-align:center" class="form-matrix-values">
-                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="4_8cta  " style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
+                    <input type="text" id="input_19_0_3" class="form-textbox validate[Currency]" size="5" name="4_8cta" style="width:100%;box-sizing:border-box" value="" onchange="calculate()">
                   </td>
                 </tr>
                 <tr>
